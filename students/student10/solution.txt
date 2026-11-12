@@ -1,0 +1,10 @@
+שאלות למה.
+1)	בגלל שבמשפט קצר הרבה יותר סביר שיהיו חריגות מהסטטיסטיקה בטקסט של חמש תווים לדוגמה המילה "pizza" מופיעה האות z פעמיים (הרבה יותר מכמה שלפי הסטטיסטיקה היא "אמורה" להופיע ואילו אותיות נפוצות באנגלית כמו e או t לא מופיעות בכלל. אבל ככל שהטקסט ארוך יותר הסטטיסטיקה מתיישרת
+2)	מספר המפתחות האפשרי הוא מ2 עד אורך הטקסט פחות אחד כי אם זה רק עמודה אחת או עמודות כאורך הטקסט הצופן בעצם פתור מראש. נוסחה למספר המפתחות כתלות באורך הטקסט: אורך הטקסט – n מספר המפתחות האפשריים – k.  K=n-2
+3)	מחיקת רווחים ברגע שנצפין ללא רווחים הצופן לא יוכל לספור מילים וסטטיסטיקה של אותיות לא תעבוד בצופן עמודות מכיוון שהאותיות נשארות זהות בכל מפתח.
+
+
+פיענוח טקסטים:
+צופן קיסר: THE TEAM WON THE MATCH IN THE LAST MINUTE AFTER A LONG AND DIFFICULT SECOND HALF STUDENTS WHO PRACTICE A LITTLE EVERY DAY USUALLY
+צופן עמודות: WHEN THE LIGHTS WENT OUT THE CHILDREN TOLD STORIES BY THE FIRE UNTIL MIDNIGHT EVERY MORNING THE OLD FISHERMAN WALKED TO THE HARBOR AND CHECKED THE WEATHER THE
+
