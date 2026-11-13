@@ -1,0 +1,13 @@
+==================================================
+CAESAR CIPHER
+==================================================
+Key: 11
+Plaintext: IN THE AFTERNOON THE WIND CHANGED DIRECTION AND THE CLOUDS MOVED TOWARD THE SEA WHEN THE LIGHTS WENT OUT THE CHILDREN TOLD
+English score: 6.066818181818183
+
+==================================================
+TRANSPOSITION CIPHER
+==================================================
+Key: 9
+Plaintext: THE COMMITTEE WILL MEET ON THURSDAY TO DISCUSS THE NEW BUDGET FOR THE SCHOOL LIBRARY THE LETTER ARRIVED THREE WEEKS LATE BECAUSE IT HAD BEEN SENT TO THE WRONG
+English score: 6.112413793103448
