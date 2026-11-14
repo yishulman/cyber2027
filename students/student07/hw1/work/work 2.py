@@ -1,4 +1,4 @@
-ciphertext = "TEOEC LMEELAIUE  AORD  YTOGOHORDHAN HTAI RONFLCHALAO LE HR RERREM M HSNA NDFTOA LTSTAAIENBE MI  TAIETUFAG I NLS  SHKRN IE S VTWHTN  TT  DCSDFMBCEEEL MNFTTAE"   # keep the spaces exactly as they are
+ciphertext = "TEOEC LMEELAIUE  AORD  YTOGOHORDHAN HTAI RONFLCHALAO LE HR RERREM M HSNA NDFTOA LTSTAAIENBE MI  TAIETUFAG I NLS  SHKRN IE S VTWHTN  TT  DCSDFMBCEEEL MNFTTAE"
 
 with open("words") as file:
     known_words = {line.strip().lower() for line in file if line.strip()}
@@ -18,9 +18,12 @@ def english_score(text):
 best_score = -1
 best_key = None
 best_text = ""
+keys_tried = 0
 n = len(ciphertext)
 
 for columns in range(2, n + 1):
+    keys_tried += 1
+
     letters = [""] * n
     pos = 0
 
@@ -40,3 +43,4 @@ for columns in range(2, n + 1):
 print("Best key:", best_key)
 print("Best score:", best_score)
 print("Best text:", best_text)
+print("keys_tried:", keys_tried)
