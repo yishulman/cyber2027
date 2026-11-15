@@ -1,0 +1,66 @@
+name: HW3 tests
+
+# Runs automatically on every Pull Request that touches a hw3 folder.
+# Can also be started by hand from the Actions tab (Run workflow) for one student.
+on:
+  pull_request:
+    paths:
+      - "students/**/hw3/**"
+  workflow_dispatch:
+    inputs:
+      student:
+        description: "Student code, for example student05"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Find the student folder
+        env:
+          EVENT: ${{ github.event_name }}
+          BASE_REF: ${{ github.base_ref }}
+          INPUT_STUDENT: ${{ inputs.student }}
+        run: |
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            student="$INPUT_STUDENT"
+          else
+            changed=$(git diff --name-only "origin/$BASE_REF...HEAD")
+            echo "Files changed in this Pull Request:"
+            echo "$changed"
+            outside=$(echo "$changed" | grep -vE '^students/student[0-9]{2}/' || true)
+            if [ -n "$outside" ]; then
+              echo "::error::A homework Pull Request may only change files inside your own students/studentXX/ folder."
+              exit 1
+            fi
+            folders=$(echo "$changed" | cut -d/ -f2 | sort -u)
+            if [ "$(echo "$folders" | wc -l)" -ne 1 ]; then
+              echo "::error::This Pull Request changes more than one student folder."
+              exit 1
+            fi
+            student="$folders"
+          fi
+          if ! echo "$student" | grep -qE '^student[0-9]{2}$'; then
+            echo "::error::Invalid student code."
+            exit 1
+          fi
+          echo "STUDENT=$student" >> "$GITHUB_ENV"
+
+      - name: Run the unit tests
+        run: pytest tests/hw3 --student "$STUDENT" -v

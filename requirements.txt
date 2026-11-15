@@ -1,0 +1,13 @@
+# Python 3.11 and newer.  Install with:  pip install -r requirements.txt
+
+# running the unit tests
+pytest>=8.0
+
+# graphs for the experiments
+matplotlib>=3.8
+
+# notebooks (optional way to submit, used in class)
+jupyterlab>=4.0
+
+# ready-made crypto primitives, used from lesson 4 onward
+cryptography>=42.0

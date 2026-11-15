@@ -1,0 +1,46 @@
+{
+ "student01": {
+  "length": 1867,
+  "sha256": "9d35736269fb2357085c839b7857a9703abeb324166e60ac93f86b6119da3932"
+ },
+ "student02": {
+  "length": 1847,
+  "sha256": "11b16ebb87a459c256dc7626c8b30269ea840ccab6cd6024ea615146c603ba64"
+ },
+ "student03": {
+  "length": 1830,
+  "sha256": "4acef22c0be1b46845c9204844f69c92c0fc4aee63ed55db796c84c02a2f5ce6"
+ },
+ "student04": {
+  "length": 1832,
+  "sha256": "f5347e073bc34757b6166497e0c026ad4277230e458bda9deb881e76bfc60f6b"
+ },
+ "student05": {
+  "length": 1860,
+  "sha256": "9ed1aa73487a56ba1eb296593143102ee140d3174b0bf559c81afc839a021b09"
+ },
+ "student06": {
+  "length": 1822,
+  "sha256": "bb64346f9e3650c73502780ea52ff216ea985bf3cf107d76d75fb2f5478d29f5"
+ },
+ "student07": {
+  "length": 1867,
+  "sha256": "686ede3fc02a53b7f6eb225fe5a2f622cd7dc853ed8e528ce207a4dcdbc11f50"
+ },
+ "student08": {
+  "length": 1821,
+  "sha256": "344c8c9d6e6d8e30b158a997487fc8cc65ce07ff95c08ba0394cdc0d85983827"
+ },
+ "student09": {
+  "length": 1821,
+  "sha256": "f4befccee271d2f03d7c33fcd292ca5d74535ff91d341669a18643494c32a3ce"
+ },
+ "student10": {
+  "length": 1829,
+  "sha256": "1fe3357a73007f07d8e4b482ae3a528dd64d2766aef30b91f23e9fdb508cf771"
+ },
+ "student11": {
+  "length": 1841,
+  "sha256": "233459b46ee8ed41a18b30fb09e957b14b8df8224d87e76d87aebf9bfb8df5de"
+ }
+}
