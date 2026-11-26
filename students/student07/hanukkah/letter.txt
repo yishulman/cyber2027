@@ -1,0 +1,8 @@
+# Hanukkah challenge - student07
+# Dreidel autokey cipher, 4 to 8 spins (the number is hidden). Hebrew letters only, no spaces, final letters written as regular letters.
+
+נעאשחדעכצצגדכצצדפסשספעפחסישפנהסבוסקאסערט
+ידזיישבצהיזהעהמתסקישסמלצפזאפגרכטדצמיהפכמ
+נדמקוכנכאצחגקתצששתתכאמחזעפקאבטוחמעגממגפס
+אושתחפדלעצכצושחייולטוצאגדשקפסיצנתבצתרורפ
+נמלגעזזשטימאגטשחקריהיספג

@@ -1,0 +1,57 @@
+{
+ "student01": {
+  "length": 177,
+  "sha256_plain": "2948cd44e27bbfbdc706c79448cdaa6b1544d1613bc317fb6a3c71e99bb5a083",
+  "sha256_dreidel": "8269f6718693a735bd1c0e2c59e7e02904ca89da2cd420868e415788e3911823"
+ },
+ "student02": {
+  "length": 190,
+  "sha256_plain": "4041cb700981cd61827abaf362a853cb8af5aeb220a52937d2920ed1a90bff4b",
+  "sha256_dreidel": "e19c1d30164b2d7da39e1ac75aab542c4718e623a8b367d2ffc77b9d749f4d45"
+ },
+ "student03": {
+  "length": 188,
+  "sha256_plain": "82e7b2332efe057d75ea9e34c4f02392625c07af61adc5311e6f1c6e2033d617",
+  "sha256_dreidel": "73100e35ea8209e5feb9f9cf251615a264c492c42421be84138ca57cddbe1783"
+ },
+ "student04": {
+  "length": 191,
+  "sha256_plain": "f8e733c5e16c1c94e5871394980190279bececf527415401c04cb3aeeadfa175",
+  "sha256_dreidel": "19ed495255d366c21cc403e1acf649b8e563d011b7d7282618ec91214974a7e8"
+ },
+ "student05": {
+  "length": 167,
+  "sha256_plain": "244bdf491baf31d9eac8318f62a7ddf17dab3f332b9342ed4c5c44d2339c9716",
+  "sha256_dreidel": "9a21379be4c982e17cc2bc2fc817c9e60dd0f496fb40bea46a0a7f1e8ea670bb"
+ },
+ "student06": {
+  "length": 201,
+  "sha256_plain": "85534a2852d52502452bfe100f9179be3548edefcfd59a189614585802d8df54",
+  "sha256_dreidel": "ef3a43d3661ff3f90e438600a76b46698e7ddaf3e949df36930b101a502590a9"
+ },
+ "student07": {
+  "length": 184,
+  "sha256_plain": "d12e2dbdd4a2d80e6a9cb167c01e14cb0612655dc0a25573f16bd1fb2d3f4baf",
+  "sha256_dreidel": "31e8ff1304814c6b69236067b9fbb2cf96c1aee630762da73d0d18ee00be2f7d"
+ },
+ "student08": {
+  "length": 189,
+  "sha256_plain": "3e3d01ce0e8ec47e1b7387d4dfb5f6837cd7fee56759323bfd1f6ee87abfe15c",
+  "sha256_dreidel": "7c1b57077b1cd8114bd7c6995d1104e8a1634e6bb5992db9b589cca5162c6d3d"
+ },
+ "student09": {
+  "length": 183,
+  "sha256_plain": "bd27cbfbd5e0aaa7a6d1f3fd8582135bb99764fc9002a294aab9b918db388aa7",
+  "sha256_dreidel": "b4dd43d9010502ac52a0a1791c802bf48d16501a0278b7b9a78dc98bbabbad69"
+ },
+ "student10": {
+  "length": 204,
+  "sha256_plain": "ef98d2bf35d1fb50df3979b0c21e980bb9cbdfc4d2a5feaee81e7bd50499f0a5",
+  "sha256_dreidel": "49df5a3cba52cb60668c2e358e107d3dcbdceb9a4985e9cfd11fff140af7474c"
+ },
+ "student11": {
+  "length": 188,
+  "sha256_plain": "846ebf4eac4eeead421ff7c374ad1c395a57f69c6225129140be73a62162e43c",
+  "sha256_dreidel": "d1877e65c79aa9ffdb26da4b766373752f82527069694687de5706c5b59484da"
+ }
+}
